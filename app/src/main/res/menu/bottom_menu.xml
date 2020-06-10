@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_paper"
+        android:enabled="true"
+        android:title="Бумага"
+        android:icon="@drawable/ic_baseline_note_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_plastic"
+        android:enabled="true"
+        android:title="Пластик"
+        android:icon="@drawable/ic_baseline_restore_from_trash_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_glass"
+        android:enabled="true"
+        android:title="Стекло"
+        android:icon="@drawable/ic_baseline_local_bar_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_danger"
+        android:enabled="true"
+        android:title="Батареи"
+        android:icon="@drawable/ic_baseline_battery_charging_full_24"
+        app:showAsAction="ifRoom"/>
+
+</menu>
