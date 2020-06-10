@@ -1,11 +1,14 @@
 package com.example.ecomap
 
 
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.location.Location
 import android.os.Build
 import android.os.Bundle
 import android.os.Looper
+import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
@@ -51,6 +54,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
+        //Для второго экрана
+        val button = findViewById<ImageButton>(R.id.reference)
+
+        button.setOnClickListener{
+            val intent = Intent(this,FullscreenActivity::class.java)
+
+            startActivity(intent)
+        }
 
         //Request runtime permission
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {

@@ -23,4 +23,12 @@
         app:menu="@menu/bottom_menu"
         />
 
+    <ImageButton
+        android:id="@+id/reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_help_50"
+        tools:ignore="VectorDrawableCompat"
+        android:background="@null"/>
+
 </RelativeLayout>
