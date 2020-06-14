@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true" >
+
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:text="@string/title_activity_help"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:text="@string/title_paper"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_margin="1dp"
+        android:paddingHorizontal="5dp"
+        android:text="@string/suitable_paper"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_margin="1dp"
+        android:paddingHorizontal="5dp"
+        android:text="@string/unsuitable_paper"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:text="@string/title_plastic"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_margin="1dp"
+        android:paddingHorizontal="5dp"
+        android:text="@string/suitable_plastic"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_margin="1dp"
+        android:paddingHorizontal="5dp"
+        android:text="@string/unsuitable_plastic"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:text="@string/title_glass"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_margin="1dp"
+        android:paddingHorizontal="5dp"
+        android:text="@string/suitable_glass"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_margin="1dp"
+        android:paddingHorizontal="5dp"
+        android:text="@string/unsuitable_glass"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:text="@string/title_danger"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_margin="1dp"
+        android:paddingHorizontal="5dp"
+        android:text="@string/suitable_danger"/>
+
+</android.widget.LinearLayout>
+</ScrollView>

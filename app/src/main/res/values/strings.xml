@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">EcoMap</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_help"><b>Как сортировать мусор?</b></string>
+    <string name="title_paper"><b>Бумага</b></string>
+    <string name="suitable_paper"><b>Подходит:</b> утрамбованные картон, офисная бумага, газетно-журнальная продукция, тетради, альбомы, открытки, любая бумажная упаковка и т.д.</string>
+    <string name="unsuitable_paper"><b>Не подходит:</b> чеки, салфетки, одноразовые бумажные стаканчики, пергамент, загрязненная пищей, жиром, жидкостью бумага.</string>
+    <string name="title_plastic"><b>Пластик</b></string>
+    <string name="suitable_plastic"><b>Подходит:</b> промытые и уплотненные упаковки с маркировкой PET или PETE, HDPE или PEHD, PVC, LDPE или PE или PELD, PP, PS, а также упаковки от соков, молочной продукции Tetra Pak. Металлические детали необходимо убрать. Крышки от бутылок собираются отдельно.</string>
+    <string name="unsuitable_plastic"><b>Не подходит:</b> упаковки без маркировки.</string>
+    <string name="title_glass"><b>Стекло</b></string>
+    <string name="suitable_glass"><b>Подходит:</b> промытые целые и битые бутылки из-под напитков, лекарств, косметики.</string>
+    <string name="unsuitable_glass"><b>Не подходит:</b> жаростойкое и ударопрочное стекло.</string>
+    <string name="title_danger"><b>Опасные отходы</b></string>
+    <string name="suitable_danger"><b>Подходит:</b> батарейки и другие отходы, помеченные как опасные.</string>
 </resources>

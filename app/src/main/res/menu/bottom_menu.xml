@@ -14,7 +14,7 @@
         android:id="@+id/action_plastic"
         android:enabled="true"
         android:title="Пластик"
-        android:icon="@drawable/ic_baseline_restore_from_trash_24"
+        android:icon="@drawable/ic_baseline_fastfood_24"
         app:showAsAction="ifRoom"/>
 
     <item
@@ -29,6 +29,13 @@
         android:enabled="true"
         android:title="Батареи"
         android:icon="@drawable/ic_baseline_battery_charging_full_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:enabled="true"
+        android:title="Помощь"
+        android:icon="@drawable/ic_baseline_help_24"
         app:showAsAction="ifRoom"/>
 
 </menu>
