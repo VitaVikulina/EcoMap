@@ -14,7 +14,7 @@
         android:id="@+id/action_plastic"
         android:enabled="true"
         android:title="Пластик"
-        android:icon="@drawable/ic_baseline_fastfood_24"
+        android:icon="@drawable/ic_bottle"
         app:showAsAction="ifRoom"/>
 
     <item
