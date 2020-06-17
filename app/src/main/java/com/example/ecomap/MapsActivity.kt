@@ -15,6 +15,7 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+/*import com.androdocs.weatherapp.WeatherActivity*/
 import com.google.android.gms.location.*
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -105,9 +106,16 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                     nearByPlace(3)
                     true
                 }
-                R.id.action_help ->
+                /*R.id.action_help ->
                 {
                     val intent = Intent(this,HelpActivity::class.java)
+
+                    startActivity(intent)
+                    true
+                }*/
+                R.id.action_weather ->
+                {
+                    val intent = Intent(this,WeatherActivity::class.java)
 
                     startActivity(intent)
                     true
